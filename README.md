@@ -1,4 +1,4 @@
-# Tryout .NET & Azure Stuff
+# Tryout Microsoft's Dependency Injection on ASP.NET Web API (.NET Framework) 
 
 [<img align="right" alt=".NET C-sharp" width="128rem" src="https://raw.githubusercontent.com/github/explore/93d8a67084f94b2a444e510199a6e7622e5b09a3/topics/dotnet/dotnet.png" />][dotnet-quick-start]
 
@@ -61,7 +61,7 @@ With VS Code:
 1. In a Terminal, run `dotnet --info` to see required versions are installed.
 2. Run `az --version` to verify Azure CLI is installed.
 
-### Create a rest-api
+### Create a minimal API
 
 Next, you would want to create a .NET project, say, a [Minimal API][dotnet-minimal-apis-tutorial] `test-project` that ships with .NET Template projects.
 
@@ -72,7 +72,7 @@ With VS Code:
 1. Run `dotnet new` to create a new web api with specific template.
 
    ```bash
-   dotnet new webapi -o test-project \
+   dotnet new webapi -o src\test-project \
                      --use-minimal-apis \
                      --language "C#"
    ```
